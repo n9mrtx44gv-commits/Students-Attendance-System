@@ -1,8 +1,9 @@
-Digital Attendance System
+#Digital Attendance System
 A simple attendance management system implemented in C++.
 
-Development Environment
+#Development Environment
 VS Code
 C++ Compiler
-Author
+
+#Author
 Gyan Isaac - 01242598D
