@@ -30,3 +30,11 @@ public:
     map<string, string> attendance;
     AttendanceSession(string cc, string d);
 };
+void loadStudents(vector<Student>& students) {
+    ifstream f("students.txt");
+    string idx, name;
+    while (getline(f, idx, ',')) {
+        getline(f, name);
+        students.push_back(Student(idx, name));
+    }
+}
