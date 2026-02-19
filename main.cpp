@@ -38,3 +38,10 @@ void loadStudents(vector<Student>& students) {
         students.push_back(Student(idx, name));
     }
 }
+int main() {
+    // ...
+    saveStudents(students);
+    loadStudents(students);
+    // ...
+}
+
