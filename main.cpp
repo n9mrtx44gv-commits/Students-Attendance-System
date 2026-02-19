@@ -22,3 +22,11 @@ int main() {
     } while (choice != 3);
     return 0;
 }
+
+class AttendanceSession {
+public:
+    string courseCode;
+    string date;
+    map<string, string> attendance;
+    AttendanceSession(string cc, string d);
+};
